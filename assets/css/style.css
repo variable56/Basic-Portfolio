@@ -1,24 +1,73 @@
-main {
-    background-image: url("../images/extra_clean_paper.png")
-}
-
-title {
+header {
     background-color: #ffffff;
-    text-align: left
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 20px;
+    border-bottom: 2px solid grey;
 }
 
-nav {
-    text-align: right
+.Name,
+.links {
+    line-height: 60px;
+    float: left;
 }
 
-article {
-    align-content: center;
-    background-color: #ffffff;
-    height: 65%;
-    width: 40%;
+.hcontainer {
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: auto;
+}
+
+.Name {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+.links {
+    width: 70%;
+    color: gray;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.container {
+    width: 960px;
+    margin: 20px auto;
+    background-color: chartreuse;
+}
+
+body {
+    background-image: url(../images/extra_clean_paper.png);
+    margin: 0 auto;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 img {
-    height: 200px;
     width: 200px;
+    height: 200px;
 }
+
+.heading-image {
+    width: 30%;
+    background-color: cadetblue;
+}
+
+.bio-text {
+    width: 70%;
+    background-color: cornflowerblue;
+}
+
