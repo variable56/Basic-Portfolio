@@ -10,3 +10,15 @@ title {
 nav {
     text-align: right
 }
+
+article {
+    align-content: center;
+    background-color: #ffffff;
+    height: 65%;
+    width: 40%;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
