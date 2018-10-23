@@ -77,20 +77,86 @@ a,p {
 /* This section is for the footer */
 
 footer {
-    width: 100%;
+    margin: 0;
+    padding: 25px 0 0 0;
     text-align: center;
-    background-color: #666666;
+    background-color: #666;
     border-top: 8px solid #4aaaa5;
-    margin: 0;
-    padding-top: 20px;
-    position:fixed;
-    bottom:0;
-}
-
-#footertext {
-    margin: 0;
-    color: #ffffff;
+  }
+  footer p {
+    color: #fff;
+    padding: 0;
     font-size: 10px;
-}
+    margin: 0;
+  }
 
 /* Portfolio page styling*/
+
+#portfoliobox {
+    background-color: #ffffff;
+    width: 960px;
+    height: 750px;
+    margin: 40px auto;
+    border: 1px solid #dddddd;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+#project1 {
+    width: 280px;
+    height: 210px;
+    margin: 20px;
+    background-image: url("../images/harold1.jpg");
+    background-size: 280px 210px;
+}
+
+#project2 {
+    width: 280px;
+    height: 210px;
+    margin: 20px;
+    background-image: url("../images/harold2.jpg");
+    background-size: 280px 210px;
+}
+
+#project3 {
+    width: 280px;
+    height: 210px;
+    margin: 20px;
+    background-image: url("../images/harold3.jpg");
+    background-size: 280px 210px;
+}
+
+#project4 {
+    width: 280px;
+    height: 210px;
+    margin: 20px;
+    background-image: url("../images/harold4.jpg");
+    background-size: 280px 210px;
+}
+
+#project5 {
+    width: 280px;
+    height: 210px;
+    margin: 20px;
+    background-image: url("../images/harold5.jpg");
+    background-size: 280px 210px;
+}
+
+#project6 {
+    width: 280px;
+    height: 210px;
+    margin: 20px;
+    background-image: url("../images/harold6.jpg");
+    background-size: 280px 210px;
+}
+
+h3 {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-top: 155px;
+}
