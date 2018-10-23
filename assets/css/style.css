@@ -95,15 +95,9 @@ footer {
 #portfoliobox {
     background-color: #ffffff;
     width: 960px;
-    height: 750px;
+    height: 835px;
     margin: 40px auto;
     border: 1px solid #dddddd;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: flex-start;
-	align-content: flex-start;
 }
 
 #project1 {
@@ -151,12 +145,30 @@ footer {
     height: 210px;
     margin: 20px;
     background-image: url("../images/harold6.jpg");
-    background-size: 280px 210px;
+    background-size: 300px 220px;
+    background-position: center;
 }
 
 h3 {
     text-align: center;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin-top: 155px;
+    margin-top: 145px;
+    padding: 10px 0 10px 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.h3font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.boxcontainer {
+    height: 750px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: flex-start;
 }
